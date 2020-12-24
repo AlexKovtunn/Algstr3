@@ -1,0 +1,4 @@
+﻿  UnitTest1.cpp
+D:\Visual Studio\проекты\Alg3\Alg3\bst.h(35): warning C4715: bft_iterator::next: значение возвращается не при всех путях выполнения
+     Создается библиотека D:\Visual Studio\проекты\Alg3\Debug\UnitTest1.lib и объект D:\Visual Studio\проекты\Alg3\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> D:\Visual Studio\проекты\Alg3\Debug\UnitTest1.dll
