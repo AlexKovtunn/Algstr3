@@ -44,7 +44,7 @@ class dft_iterator : public Iterator {
 private:
     Node* cur;
     stack nodesStack;
-    bool bl = true;
+    bool flag = true;
 public:
     dft_iterator(Node* root) {
         cur = root;
@@ -57,8 +57,8 @@ public:
     }
 
     int next() override {
-        if (bl) {
-            bl = false;
+        if (flag) {
+            flag = false;
             Node* temp = nodesStack.getTop();
             nodesStack.pop();
             return temp->inf;
